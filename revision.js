@@ -51,8 +51,6 @@ function reverseIterateAndLogRecursively(n) {
     console.log(i + " is odd number ");
   }
 
-  return;
-}
 //_______________________
 
 function reverseIterateAndLogRecursively(n) {
