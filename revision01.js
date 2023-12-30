@@ -50,7 +50,7 @@ function reverseIterateAndLogRecursively(n) {
   } else if (i % 2 === 1) {
     console.log(i + " is odd number ");
   }
-
+}
 //_______________________
 
 function reverseIterateAndLogRecursively(n) {
@@ -157,7 +157,9 @@ function firstDigit(str) {
 
     if (!isNaN(x)) {
       res = x;
+        return res + " is the first number the the string";
     }
   }
-  return res + " is the first number the the string";
+  return 'there is nno number inside the string'
 }
+
